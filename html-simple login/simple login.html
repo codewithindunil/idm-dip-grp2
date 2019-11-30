@@ -20,6 +20,7 @@
             width: 600px;
             /* background: gray; */
             margin-left: 300px;
+            /* margin: auto; */
             margin-top: 150px;
         }
     </style>
@@ -66,7 +67,9 @@
                 var pass = login.pword.value;
           
                 if (user == "me@gmail.com" && pass == "123") {
-                    alert("username and password are corrects");
+                    // alert("username and password are corrects");
+                    window.open('new.html');
+                    // window.open()
                 }
                 else {
                     alert("username or password is incorrect");
